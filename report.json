@@ -1,0 +1,83 @@
+{
+  "config": {
+    "forbidOnly": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/Users/liaoyanjun/Desktop/doutify/Demo/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "name": "",
+        "testDir": "/Users/liaoyanjun/Desktop/doutify/Demo",
+        "testIgnore": [],
+        "testMatch": [
+          "**/?(*.)@(spec|test).@(ts|js|mjs)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "reporter": [
+      [
+        "json",
+        {
+          "outputFile": "./report.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "rootDir": "/Users/liaoyanjun/Desktop/doutify/Demo",
+    "quiet": false,
+    "shard": null,
+    "updateSnapshots": "missing",
+    "workers": 2,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "tests/demo4.spec.js",
+      "file": "tests/demo4.spec.js",
+      "line": 0,
+      "column": 0,
+      "specs": [
+        {
+          "title": "Drag and Drop",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 20646,
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "file": "tests/demo4.spec.js",
+          "line": 3,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": []
+}
