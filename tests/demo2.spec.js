@@ -9,7 +9,7 @@ test.beforeEach(async ({ page }) => {
 test.describe("Github 登入測試與表單填寫範例", () => {
 
     test('登入成功', async ({ page }) => {
-        await page.pause()
+        await page.pause();
         
         // Click input[name="login"]
         await page.fill('input[name="login"]', USERNAME);
